@@ -15,7 +15,7 @@ public class HelloWorldResource {
 	
 	@RequestMapping("/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
-		return new HelloWorldBean("helloworld");
+		return new HelloWorldBean("helloworldbean");
 	}
 	
 	@RequestMapping("/hello-world-path-param/{name}")
